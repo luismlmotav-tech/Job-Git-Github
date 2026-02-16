@@ -6,3 +6,9 @@ suma = 0
 for i in lista :
     suma += i
 print(f'La suma de los elementos de la lista es: {suma}')  # Imprime la suma de los elementos de la lista
+print(f'El promedio de los elementos de la lista es: {suma/len(lista)}')  # Imprime el promedio de los elementos de la lista  
+print(f'El valor máximo de la lista es: {max(lista)}')  # Imprime el valor máximo de la lista       
+print(f'El valor mínimo de la lista es: {min(lista)}')  # Imprime el valor mínimo de la lista
+print(f'El valor del indice 0 es: {lista[0]}')  # Imprime el valor del indice 0 de la lista
+print(f'El valor del indice 1 es: {lista[1]}')  # Imprime el valor del indice 1 de la lista
+print(f'El valor del indice 2 es: {lista[2]}')  # Imprime el valor del indice 2 de la lista                              
