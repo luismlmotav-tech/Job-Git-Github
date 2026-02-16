@@ -12,3 +12,11 @@ print(f'El valor mínimo de la lista es: {min(lista)}')  # Imprime el valor mín
 print(f'El valor del indice 0 es: {lista[0]}')  # Imprime el valor del indice 0 de la lista
 print(f'El valor del indice 1 es: {lista[1]}')  # Imprime el valor del indice 1 de la lista
 print(f'El valor del indice 2 es: {lista[2]}')  # Imprime el valor del indice 2 de la lista                              
+
+multiplicacion = 1
+for i in lista :
+    multiplicacion *= i
+print(f'La multiplicación de los elementos de la lista es: {multiplicacion}')  # Imprime la multiplicación de los elementos de la lista
+
+lista.append(4)
+print(f'La lista después de agregar el número 4 es: {lista}')  # Imprime la lista después de agregar el número 4
