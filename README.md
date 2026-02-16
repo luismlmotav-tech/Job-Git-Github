@@ -1,2 +1,2 @@
-# Job-GIt-Github
+# Job-Git-Github
 trabajo remoto
